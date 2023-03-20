@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Checkout</h1>
+      <div class="main_row">
+        <div class="information_box">
+          <div class="contact_box">
+            <h3 class="contact-title">Contact information</h3>
+            <div class="input_box">
+              <label for="" class="input-label">E-mail</label>
+              <div class="input">
+                <input type="text" placeholder="Enter your email..." />
+                <i class="fa-solid fa-envelope fa-lg"></i>
+              </div>
+            </div>
+            <div class="input_box">
+              <label for="" class="input-label">Phone</label>
+              <div class="input">
+                <input type="number" placeholder="Enter your phone..." />
+                <i class="fa-solid fa-phone fa-lg"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="address_box">
+            <h3 class="address-title">Shipping address</h3>
+            <div class="input_box">
+              <label for="" class="input-label">Full name</label>
+              <div class="input">
+                <input type="text" value="Rodney Cotton" />
+                <i class="fa-solid fa-user fa-lg"></i>
+              </div>
+            </div>
+            <div class="input_box">
+              <label for="" class="input-label">Address</label>
+              <div class="input">
+                <input type="text" placeholder="Your address..." />
+                <i class="fa-solid fa-home fa-lg"></i>
+              </div>
+            </div>
+            <div class="input_box">
+              <label for="" class="input-label">City</label>
+              <div class="input">
+                <input type="text" placeholder="Your city..." />
+                <i class="fa-solid fa-city"></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input_box">
+                <label for="" class="input-label">Country</label>
+                <div class="input">
+                  <select name="country" id="select">
+                    <option value="0">Your country..</option>
+                  </select>
+                  <i class="fa-solid fa-earth-americas"></i>
+                </div>
+              </div>
+              <div class="input_box">
+                <label for="" class="input-label">Postal code</label>
+                <div class="input">
+                  <input type="text" placeholder="Your postal code..." />
+                  <i class="fa-solid fa-flag"></i>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="check">
+            <input type="checkbox" class="checkbox" id="check">
+          <label class="checkbox-label" for="check">Save this information for next time</label>
+          </div>
+          <button class="btn">Continue</button>
+        </div>
+        <div class="price_box">
+          <div class="item_box">
+            <img src="./photo1.png" alt="">
+            <div class="price">
+              <h5 class="item-title">Vintage Backbag</h5>
+              <p class="item-price">$54.99 <span class="badge">$94.99</span></p>
+              <div class="tool_box">
+                <i class="fa-solid fa-minus"></i>
+                1
+                <i class="fa-solid fa-add"></i>
+              </div>
+            </div>
+          </div>
+          <div class="item_box">
+            <img src="./photo2.png" alt="">
+            <div class="price">
+              <h5 class="item-title">Vintage Backbag</h5>
+              <p class="item-price">$54.99 <span class="badge">$94.99</span></p>
+              <div class="tool_box">
+                <i class="fa-solid fa-minus"></i>
+                1
+                <i class="fa-solid fa-add"></i>
+              </div>
+            </div>
+          </div>
+            <hr>
+          <div class="shipping_box">
+            <p>Shipping</p>
+            <p>$19</p>
+          </div>
+          <hr>
+          <div class="total_box">
+            <p>Total</p>
+            <p>$148.98</p>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <p>created by <span>Shin'ichi</span> - devChallenges.io</p>
+      </footer>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7286917195.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./style.js"></script>
+  </body>
+</html>
